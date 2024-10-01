@@ -16,7 +16,7 @@ public class DijkstraAlgo2ToCSV extends DijkstraAlgo2{
 
             // Generate different graph sizes for testing
             int[] vertexSizes = {100, 200, 500, 1000, 2000,5000,10000};  // Varying numbers of vertices
-            int edgesPerVertex = 3;  // For each vertex, we will generate 10 edges
+            int edgesPerVertex = 3;  // For each vertex, we will generate 3 edges
 
             for (int numOfVert : vertexSizes) {
                 // Create a new graph with numVertices
